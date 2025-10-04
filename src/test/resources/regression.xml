@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" parallel="tests" thread-count="2" >
+
+    <listeners>
+        <listener class-name="utils.AllureTestListener"/>
+    </listeners>
+
+    <!-- Regression test group -->
+    <test name="Login test">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>

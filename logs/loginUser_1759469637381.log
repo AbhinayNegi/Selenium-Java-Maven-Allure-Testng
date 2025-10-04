@@ -1,0 +1,4 @@
+[2025-10-03 11:03:59] INFO  tests.LoginTest - Test login user has started
+[2025-10-03 11:03:59] INFO  pages.LoginPage - Getting login heading text
+[2025-10-03 11:03:59] INFO  pages.LoginPage - Entering user name: Admin
+[2025-10-03 11:03:59] INFO  pages.LoginPage - Entering password: admin123

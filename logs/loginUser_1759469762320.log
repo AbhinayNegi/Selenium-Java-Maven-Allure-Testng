@@ -1,0 +1,4 @@
+[2025-10-03 11:06:04] INFO  tests.LoginTest - Test login user has started
+[2025-10-03 11:06:04] INFO  pages.LoginPage - Getting login heading text
+[2025-10-03 11:06:04] ERROR tests.LoginTest - Test failed due to assertion error -> expected [Login1] but found [Login]
+[2025-10-03 11:06:04] ERROR utils.AllureTestListener - Test failed: loginUser
