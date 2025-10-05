@@ -23,7 +23,7 @@ public class LoginTest extends BaseTest {
 
             logger.info("Test login user has started");
             String loginHeading = loginPage.getLoginPageHeading();
-            Assert.assertEquals(loginHeading, "Login1");
+            Assert.assertEquals(loginHeading, "Login");
 
             loginPage.enterUsername(username);
             loginPage.enterPassword(password);
