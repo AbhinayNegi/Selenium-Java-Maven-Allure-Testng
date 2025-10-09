@@ -20,5 +20,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print hello
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: run
         run: mvn clean
