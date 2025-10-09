@@ -1,9 +1,0 @@
-name: Running automation tests
-on: [push]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print hello
-        run: echo "Hello world"
