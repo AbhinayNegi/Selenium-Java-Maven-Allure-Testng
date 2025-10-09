@@ -8,3 +8,26 @@
 [2025-10-03 11:06:04] INFO  pages.LoginPage - Getting login heading text
 [2025-10-03 11:06:04] ERROR tests.LoginTest - Test failed due to assertion error -> expected [Login1] but found [Login]
 [2025-10-03 11:06:04] ERROR utils.AllureTestListener - Test failed: loginUser
+[2025-10-05 22:19:19] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Work\AutomationFramework\src\test\resources\regression.xml"
+[2025-10-05 22:19:20] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Work\AutomationFramework\src\test\resources\regression.xml
+
+[2025-10-05 22:19:40] INFO  tests.LoginTest - Test login user has started
+[2025-10-05 22:19:40] INFO  pages.LoginPage - Getting login heading text
+[2025-10-05 22:19:50] INFO  pages.LoginPage - Entering user name: Admin
+[2025-10-05 22:19:50] INFO  pages.LoginPage - Entering password: admin123
+[2025-10-05 22:19:50] INFO  pages.LoginPage - Clicking login button
+[2025-10-05 22:20:30] ERROR tests.LoginTest - Test failed -> Expected condition failed: waiting for visibility of element located by By.xpath: //button (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\negia\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63574}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63574/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fb1d30574ba6aae7c3ddfd2ddc4645d
+[2025-10-05 22:20:30] ERROR utils.AllureTestListener - Test failed: loginUser
+[2025-10-09 11:37:29] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Work\AutomationFramework\src\test\resources\regression.xml"
+[2025-10-09 11:37:40] INFO  tests.LoginTest - Test login user has started
+[2025-10-09 11:37:40] INFO  pages.LoginPage - Getting login heading text
+[2025-10-09 11:37:41] INFO  pages.LoginPage - Entering user name: Admin
+[2025-10-09 11:37:41] INFO  pages.LoginPage - Entering password: admin123
+[2025-10-09 11:37:41] INFO  pages.LoginPage - Clicking login button
+[2025-10-09 11:37:43] INFO  tests.LoginTest - Test passed
