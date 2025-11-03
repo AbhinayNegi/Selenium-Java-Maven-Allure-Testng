@@ -13,6 +13,7 @@ public class AddRemovePage extends BasePage {
 
     private final By ADD_ELEMENT_BTN = By.xpath("//button");
     private final By DELETE_ELEMENT_BTN= By.xpath("//button[text()='Delete']");
+
     public AddRemovePage(WebDriver driver) {
         super(driver);
     }

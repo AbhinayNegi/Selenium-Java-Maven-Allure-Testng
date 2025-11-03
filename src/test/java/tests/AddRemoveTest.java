@@ -13,21 +13,18 @@ public class AddRemoveTest extends BaseTest{
 
         @Test
         @Description("Verify user can click add and remove button")
-        public void clickAdd() throws InterruptedException, IOException {
+        public void clickAddRemoveButton() throws InterruptedException, IOException {
         try {
             logger.info("The user is on homepage");
             String homepageHeading = homePage.getHomePageHeading();
             Assert.assertEquals(homepageHeading, "Welcome to the-internet");
-            homePage.clickAdd();
+            homePage.clickAddRemoveButton();
             Assert.assertTrue(addRemovePage.isAddElementButtonVisible());
-            logger.info("Test passed");
             addRemovePage.clickAddElement();
             Assert.assertTrue(addRemovePage.isDeleteElementButtonVisible());
-            logger.info("Test passed");
             addRemovePage.clickDeleteElement();
             Assert.assertTrue(addRemovePage.isDeleteElementButtonInVisible());
             logger.info("Test passed");
-
         } catch (Exception e) {
             logger.error("Test failed -> {}", e.getMessage());
             throw e;

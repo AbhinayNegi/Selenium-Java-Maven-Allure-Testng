@@ -20,7 +20,7 @@ public class HomePage extends BasePage{
     }
 
     @Step("Clicking the add/remove button")
-    public void clickAdd() {
+    public void clickAddRemoveButton() {
         logger.info("Clicking add/remove button");
         clickElement(BTN_ADD_REMOVE);
     }

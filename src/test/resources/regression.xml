@@ -12,4 +12,10 @@
         </classes>
     </test>
 
+    <test name="AddRemove test">
+        <classes>
+            <class name="tests.AddRemoveTest"/>
+        </classes>
+    </test>
+
 </suite>
