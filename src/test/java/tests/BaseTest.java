@@ -9,10 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
-import pages.AddRemovePage;
-import pages.DashboardPage;
-import pages.HomePage;
-import pages.LoginPage;
+import pages.*;
 
 import java.lang.reflect.Method;
 
@@ -23,6 +20,7 @@ public class BaseTest {
     DashboardPage dashboardPage;
     HomePage homePage;
     AddRemovePage addRemovePage;
+    Authpage authPage;
 
     protected Logger logger;
     public String logFilePath;
@@ -70,6 +68,7 @@ public class BaseTest {
         dashboardPage = new DashboardPage(driver);
         homePage= new HomePage(driver);
         addRemovePage= new AddRemovePage(driver);
+        authPage = new Authpage(driver);
     }
 
 }

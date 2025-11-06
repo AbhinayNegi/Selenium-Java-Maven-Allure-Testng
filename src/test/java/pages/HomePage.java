@@ -13,6 +13,7 @@ public class HomePage extends BasePage{
 
     private final By BTN_ADD_REMOVE = By.xpath("//a[text()='Add/Remove Elements']");
     private final By LOGIN_HEADING = By.xpath("//h1");
+    private final By AUTH_BTN= By.xpath("//a[@href='/basic_auth']");
 
 
     public HomePage(WebDriver driver) {
@@ -30,4 +31,9 @@ public class HomePage extends BasePage{
         logger.info("Getting homepage heading text");
         return wait.until(ExpectedConditions.visibilityOfElementLocated(LOGIN_HEADING)).getText();
     }
-}
+
+    @Step("Clicking the Basic Auth button")
+    public void clickBasicAuthButton() {
+        logger.info("Clicking basic auth button");
+        clickElement(AUTH_BTN);
+    }}
