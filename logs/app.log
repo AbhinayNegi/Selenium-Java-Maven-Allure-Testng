@@ -31,3 +31,164 @@ Session ID: 8fb1d30574ba6aae7c3ddfd2ddc4645d
 [2025-10-09 11:37:41] INFO  pages.LoginPage - Entering password: admin123
 [2025-10-09 11:37:41] INFO  pages.LoginPage - Clicking login button
 [2025-10-09 11:37:43] INFO  tests.LoginTest - Test passed
+[2025-10-16 19:06:45] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Work Laxmi\Selenium-Java-Maven-Allure-Testng\src\test\resources\regression.xml"
+[2025-10-16 19:06:57] INFO  tests.LoginTest - Test login user has started
+[2025-10-16 19:06:57] INFO  pages.LoginPage - Getting login heading text
+[2025-10-16 19:07:24] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-10-16 19:07:25] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-10-16 19:07:28] ERROR tests.LoginTest - Test failed -> Expected condition failed: waiting for visibility of element located by By.xpath: //h5 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51637}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51637/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58d6350a51a2ce03f6d46524f1548f72
+[2025-10-16 19:07:28] ERROR utils.AllureTestListener - Test failed: loginUser
+[2025-10-16 19:07:33] INFO  tests.AddRemoveTest - The user is on homepage
+[2025-10-16 19:07:33] ERROR tests.AddRemoveTest - Test failed -> Cannot invoke "pages.HomePage.getHomePageHeading()" because "this.homePage" is null
+[2025-10-16 19:10:28] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-10-16 19:10:29] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-10-16 19:10:35] INFO  tests.AddRemoveTest - The user is on homepage
+[2025-10-16 19:10:35] ERROR tests.AddRemoveTest - Test failed -> Cannot invoke "pages.HomePage.getHomePageHeading()" because "this.homePage" is null
+[2025-10-16 19:16:15] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-10-16 19:16:16] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-10-16 19:16:22] INFO  tests.AddRemoveTest - The user is on homepage
+[2025-10-16 19:16:22] INFO  pages.HomePage - Getting login heading text
+[2025-10-16 19:16:22] INFO  pages.HomePage - Clicking add/remove button
+[2025-10-16 19:16:23] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 19:25:38] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-10-16 19:25:38] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-10-16 19:25:45] INFO  tests.AddRemoveTest - The user is on homepage
+[2025-10-16 19:25:45] INFO  pages.HomePage - Getting login heading text
+[2025-10-16 19:25:45] INFO  pages.HomePage - Clicking add/remove button
+[2025-10-16 19:25:46] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 19:27:32] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-10-16 19:27:33] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-10-16 19:27:40] INFO  tests.AddRemoveTest - The user is on homepage
+[2025-10-16 19:27:40] INFO  pages.HomePage - Getting homepage heading text
+[2025-10-16 19:27:40] INFO  pages.HomePage - Clicking add/remove button
+[2025-10-16 19:27:41] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 19:37:22] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-10-16 19:37:23] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-10-16 19:37:29] INFO  tests.AddRemoveTest - The user is on homepage
+[2025-10-16 19:37:29] INFO  pages.HomePage - Getting homepage heading text
+[2025-10-16 19:37:29] INFO  pages.HomePage - Clicking add/remove button
+[2025-10-16 19:37:30] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 19:37:30] INFO  pages.AddRemovePage - Clicking add button
+[2025-10-16 19:38:57] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-10-16 19:38:58] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-10-16 19:39:04] INFO  tests.AddRemoveTest - The user is on homepage
+[2025-10-16 19:39:04] INFO  pages.HomePage - Getting homepage heading text
+[2025-10-16 19:39:05] INFO  pages.HomePage - Clicking add/remove button
+[2025-10-16 19:39:05] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 19:39:05] INFO  pages.AddRemovePage - Clicking add button
+[2025-10-16 19:44:30] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-10-16 19:44:31] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-10-16 19:44:38] INFO  tests.AddRemoveTest - The user is on homepage
+[2025-10-16 19:44:38] INFO  pages.HomePage - Getting homepage heading text
+[2025-10-16 19:44:38] INFO  pages.HomePage - Clicking add/remove button
+[2025-10-16 19:44:38] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 19:44:38] INFO  pages.AddRemovePage - Clicking add button
+[2025-10-16 19:44:39] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 19:48:27] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-10-16 19:48:28] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-10-16 19:48:34] INFO  tests.AddRemoveTest - The user is on homepage
+[2025-10-16 19:48:34] INFO  pages.HomePage - Getting homepage heading text
+[2025-10-16 19:48:34] INFO  pages.HomePage - Clicking add/remove button
+[2025-10-16 19:48:35] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 19:48:35] INFO  pages.AddRemovePage - Clicking add button
+[2025-10-16 19:48:35] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 19:48:35] INFO  pages.AddRemovePage - Clicking delete button
+[2025-10-16 19:49:06] ERROR tests.AddRemoveTest - Test failed -> Expected condition failed: waiting for visibility of element located by By.xpath: //button[text()='Delete'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63662}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63662/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bac5a131dff93626369b002582905929
+[2025-10-16 20:05:17] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-10-16 20:05:18] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-10-16 20:05:25] INFO  tests.AddRemoveTest - The user is on homepage
+[2025-10-16 20:05:25] INFO  pages.HomePage - Getting homepage heading text
+[2025-10-16 20:05:26] INFO  pages.HomePage - Clicking add/remove button
+[2025-10-16 20:05:26] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 20:05:26] INFO  pages.AddRemovePage - Clicking add button
+[2025-10-16 20:05:26] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 20:05:26] INFO  pages.AddRemovePage - Clicking delete button
+[2025-10-16 20:06:09] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-10-16 20:06:10] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-10-16 20:06:17] INFO  tests.AddRemoveTest - The user is on homepage
+[2025-10-16 20:06:17] INFO  pages.HomePage - Getting homepage heading text
+[2025-10-16 20:06:18] INFO  pages.HomePage - Clicking add/remove button
+[2025-10-16 20:06:18] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 20:06:18] INFO  pages.AddRemovePage - Clicking add button
+[2025-10-16 20:06:18] INFO  tests.AddRemoveTest - Test passed
+[2025-10-16 20:06:18] INFO  pages.AddRemovePage - Clicking delete button
+[2025-10-16 20:06:18] INFO  tests.AddRemoveTest - Test passed
+[2025-10-19 20:27:52] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-10-19 20:27:53] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-10-19 20:28:00] INFO  tests.AddRemoveTest - The user is on homepage
+[2025-10-19 20:28:00] INFO  pages.HomePage - Getting homepage heading text
+[2025-10-19 20:28:01] INFO  pages.HomePage - Clicking add/remove button
+[2025-10-19 20:28:01] INFO  pages.AddRemovePage - Clicking add button
+[2025-10-19 20:28:01] INFO  pages.AddRemovePage - Clicking delete button
+[2025-10-19 20:28:01] INFO  tests.AddRemoveTest - Test passed
+[2025-11-06 14:30:49] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-06 14:30:50] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-06 14:30:58] INFO  tests.AuthTest - The user is on homepage
+[2025-11-06 14:30:58] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-06 14:30:58] INFO  pages.HomePage - Clicking basic auth button
+[2025-11-06 14:30:59] ERROR tests.AuthTest - Test failed -> no such alert
+  (Session info: chrome=142.0.7444.59)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [172fa541c5622e747a2d0dda43e720f5, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64699}, goog:processID: 17132, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64699/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 172fa541c5622e747a2d0dda43e720f5
+[2025-11-06 14:50:53] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-06 14:50:53] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-06 14:50:59] INFO  tests.AuthTest - The user is on homepage
+[2025-11-06 14:50:59] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-06 14:51:00] ERROR tests.AuthTest - Test failed due to assertion error -> expected [Basic Auth] but found [true]
+[2025-11-06 14:55:39] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-06 14:55:40] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-06 14:55:45] INFO  tests.AuthTest - The user is on homepage
+[2025-11-06 14:55:45] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-06 14:55:46] INFO  tests.AuthTest - Test passed
+[2025-11-06 14:59:40] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-06 14:59:41] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-06 14:59:47] INFO  tests.AuthTest - The user is on homepage
+[2025-11-06 14:59:47] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-06 14:59:47] INFO  tests.AuthTest - The user is handeling the auth
+[2025-11-06 14:59:48] INFO  tests.AuthTest - Test passed
