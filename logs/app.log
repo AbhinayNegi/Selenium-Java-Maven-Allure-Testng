@@ -31,3 +31,123 @@ Session ID: 8fb1d30574ba6aae7c3ddfd2ddc4645d
 [2025-10-09 11:37:41] INFO  pages.LoginPage - Entering password: admin123
 [2025-10-09 11:37:41] INFO  pages.LoginPage - Clicking login button
 [2025-10-09 11:37:43] INFO  tests.LoginTest - Test passed
+[2025-11-06 21:45:25] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-06 21:49:27] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-06 21:53:22] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-06 21:53:23] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-06 21:53:29] INFO  tests.BrokenImageTest - The user is on homepage
+[2025-11-06 21:53:29] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-06 21:53:29] INFO  pages.HomePage - Clicking login button
+[2025-11-06 21:53:30] INFO  tests.BrokenImageTest - Test passed
+[2025-11-07 21:11:39] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-07 21:11:40] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-07 21:11:46] INFO  tests.BrokenImageTest - The user is on homepage
+[2025-11-07 21:11:46] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-07 21:11:47] INFO  pages.HomePage - Clicking login button
+[2025-11-07 21:11:47] INFO  pages.BrokenImapgePage - Verify if image1 is broken
+[2025-11-07 21:11:47] INFO  pages.BrokenImapgePage - Image naturalWidth: 0
+[2025-11-07 21:11:47] INFO  tests.BrokenImageTest - Test passed
+[2025-11-07 21:15:34] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-07 21:15:35] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-07 21:15:41] INFO  tests.BrokenImageTest - The user is on homepage
+[2025-11-07 21:15:41] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-07 21:15:41] INFO  pages.HomePage - Clicking login button
+[2025-11-07 21:15:42] INFO  pages.BrokenImapgePage - Verify if image1 is broken
+[2025-11-07 21:15:42] INFO  pages.BrokenImapgePage - Image naturalWidth: 0
+[2025-11-07 21:15:42] INFO  pages.BrokenImapgePage - Verify if image1 is broken
+[2025-11-07 21:15:42] INFO  pages.BrokenImapgePage - Image naturalWidth: 0
+[2025-11-07 21:15:42] ERROR tests.BrokenImageTest - Test failed due to assertion error -> expected [true] but found [false]
+[2025-11-07 21:21:23] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-07 21:21:23] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-07 21:21:29] INFO  tests.BrokenImageTest - The user is on homepage
+[2025-11-07 21:21:29] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-07 21:21:29] INFO  pages.HomePage - Clicking login button
+[2025-11-07 21:21:30] INFO  pages.BrokenImapgePage - Verify if image1 is broken
+[2025-11-07 21:21:30] INFO  pages.BrokenImapgePage - Image naturalWidth: 0
+[2025-11-07 21:21:30] INFO  pages.BrokenImapgePage - Verify if image1 is broken
+[2025-11-07 21:21:30] INFO  pages.BrokenImapgePage - Image naturalWidth: 0
+[2025-11-07 21:21:30] ERROR tests.BrokenImageTest - Test failed due to assertion error -> expected [true] but found [false]
+[2025-11-07 21:22:59] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-07 21:22:59] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-07 21:23:04] INFO  tests.BrokenImageTest - The user is on homepage
+[2025-11-07 21:23:04] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-07 21:23:04] INFO  pages.HomePage - Clicking login button
+[2025-11-07 21:23:05] INFO  pages.BrokenImapgePage - Verify if image1 is broken
+[2025-11-07 21:23:05] INFO  pages.BrokenImapgePage - Image naturalWidth: 0
+[2025-11-07 21:23:05] INFO  pages.BrokenImapgePage - Verify if image1 is broken
+[2025-11-07 21:23:05] INFO  pages.BrokenImapgePage - Image naturalWidth: 0
+[2025-11-07 21:23:05] ERROR tests.BrokenImageTest - Test failed due to assertion error -> expected [true] but found [false]
+[2025-11-07 21:25:57] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-07 21:25:58] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-07 21:26:03] INFO  tests.BrokenImageTest - The user is on homepage
+[2025-11-07 21:26:03] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-07 21:26:04] INFO  pages.HomePage - Clicking login button
+[2025-11-07 21:26:04] INFO  pages.BrokenImapgePage - Verify if image1 is broken
+[2025-11-07 21:26:04] INFO  pages.BrokenImapgePage - Image naturalWidth: 0
+[2025-11-07 21:26:04] INFO  pages.BrokenImapgePage - Verify if image1 is broken
+[2025-11-07 21:26:04] INFO  pages.BrokenImapgePage - Image naturalWidth: 0
+[2025-11-07 21:26:04] ERROR tests.BrokenImageTest - Test failed due to assertion error -> expected [true] but found [false]
+[2025-11-07 21:26:38] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-07 21:26:38] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-07 21:26:44] INFO  tests.BrokenImageTest - The user is on homepage
+[2025-11-07 21:26:44] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-07 21:26:44] INFO  pages.HomePage - Clicking login button
+[2025-11-07 21:26:45] INFO  pages.BrokenImapgePage - Verify if image2 is broken
+[2025-11-07 21:26:45] INFO  pages.BrokenImapgePage - Image naturalWidth: 160
+[2025-11-07 21:26:45] INFO  pages.BrokenImapgePage - Verify if image2 is broken
+[2025-11-07 21:26:45] INFO  pages.BrokenImapgePage - Image naturalWidth: 160
+[2025-11-07 21:26:45] ERROR tests.BrokenImageTest - Test failed due to assertion error -> expected [true] but found [false]
+[2025-11-07 21:29:07] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-07 21:29:07] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-07 21:29:14] INFO  tests.BrokenImageTest - The user is on homepage
+[2025-11-07 21:29:14] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-07 21:29:14] INFO  pages.HomePage - Clicking login button
+[2025-11-07 21:29:14] INFO  pages.BrokenImapgePage - Verify if image2 is broken
+[2025-11-07 21:29:14] INFO  pages.BrokenImapgePage - Image naturalWidth: 160
+[2025-11-07 21:29:14] INFO  pages.BrokenImapgePage - Verify if image2 is broken
+[2025-11-07 21:29:14] INFO  pages.BrokenImapgePage - Image naturalWidth: 160
+[2025-11-07 21:29:14] INFO  tests.BrokenImageTest - Test passed
+[2025-11-07 21:30:24] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-07 21:30:25] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-07 21:30:31] INFO  tests.BrokenImageTest - The user is on homepage
+[2025-11-07 21:30:31] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-07 21:30:31] INFO  pages.HomePage - Clicking login button
+[2025-11-07 21:30:31] INFO  pages.BrokenImapgePage - Verify if image1 is broken
+[2025-11-07 21:30:31] INFO  pages.BrokenImapgePage - Image naturalWidth: 0
+[2025-11-07 21:30:31] INFO  pages.BrokenImapgePage - Verify if image1 is broken
+[2025-11-07 21:30:31] INFO  pages.BrokenImapgePage - Image naturalWidth: 0
+[2025-11-07 21:30:31] INFO  pages.BrokenImapgePage - Verify if image2 is broken
+[2025-11-07 21:30:31] INFO  pages.BrokenImapgePage - Image naturalWidth: 160
+[2025-11-07 21:30:31] INFO  pages.BrokenImapgePage - Verify if image2 is broken
+[2025-11-07 21:30:31] INFO  pages.BrokenImapgePage - Image naturalWidth: 160
+[2025-11-07 21:30:31] INFO  tests.BrokenImageTest - Test passed
+[2025-11-07 21:32:18] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-07 21:32:19] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-07 21:32:25] INFO  tests.BrokenImageTest - The user is on homepage
+[2025-11-07 21:32:25] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-07 21:32:25] INFO  pages.HomePage - Clicking login button
+[2025-11-07 21:32:26] INFO  pages.BrokenImapgePage - Verify if image1 is broken
+[2025-11-07 21:32:26] INFO  pages.BrokenImapgePage - Image naturalWidth: 0
+[2025-11-07 21:32:26] INFO  pages.BrokenImapgePage - Verify if image2 is broken
+[2025-11-07 21:32:26] INFO  pages.BrokenImapgePage - Image naturalWidth: 160
+[2025-11-07 21:32:26] INFO  tests.BrokenImageTest - Test passed

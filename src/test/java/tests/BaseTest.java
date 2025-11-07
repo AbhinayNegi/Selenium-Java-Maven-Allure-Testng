@@ -9,8 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
-import pages.DashboardPage;
-import pages.LoginPage;
+import pages.*;
 
 import java.lang.reflect.Method;
 
@@ -19,6 +18,8 @@ public class BaseTest {
     public WebDriver driver;
     LoginPage loginPage;
     DashboardPage dashboardPage;
+    HomePage homePage;
+    BrokenImapgePage brokenImapgePage;
 
     protected Logger logger;
     public String logFilePath;
@@ -27,7 +28,8 @@ public class BaseTest {
     public void setUp(Method method) {
         driver = new ChromeDriver();
         driver.manage().window().maximize(); // will maximize the window
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        //  driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.get("https://the-internet.herokuapp.com/");
 
         String testName = method.getName();
         logFilePath = "logs/" + testName + "_" + System.currentTimeMillis() + ".log";
@@ -63,6 +65,8 @@ public class BaseTest {
     public void createPageObjects() {
         loginPage = new LoginPage(driver);
         dashboardPage = new DashboardPage(driver);
+        homePage= new HomePage(driver);
+        brokenImapgePage = new BrokenImapgePage(driver);
     }
 
 }
