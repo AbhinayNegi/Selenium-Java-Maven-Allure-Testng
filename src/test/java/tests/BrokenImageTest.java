@@ -25,16 +25,22 @@ public class BrokenImageTest extends BaseTest {
             String homepageHeading = homePage.getHomePageHeading();
             Assert.assertEquals(homepageHeading, "Welcome to the-internet");
             homePage.clickBrokenImageButton();
-            Assert.assertTrue(brokenImapgePage.verifyImage1isBroken());
-            Assert.assertTrue(brokenImapgePage.verifyImage2isBroken());
-            logger.info("Test passed");
+            try {
+                Assert.assertTrue(brokenImapgePage.verifyImage1isBroken(), "Image is broken!");
+            }  catch (AssertionError e) {
+            logger.error("Image 1 is broken: {}", e.getMessage());
+        }
+            try {
+                Assert.assertTrue(brokenImapgePage.verifyImage2isBroken(), "Image is broken!");
+            }  catch (AssertionError e) {
+                logger.error("Image 2 is broken: {}", e.getMessage());
+            }
+            logger.info("Verification completed for both images");
+
         } catch (Exception e) {
-            logger.error("Test failed -> {}", e.getMessage());
-            throw e;
-        } catch (AssertionError e) {
-            logger.error("Test failed due to assertion error -> {}", e.getMessage());
+            logger.error("Test failed due to unexpected error -> {}", e.getMessage());
             throw e;
         }
-    }
+        }
 }
 

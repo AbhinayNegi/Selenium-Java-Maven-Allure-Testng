@@ -27,9 +27,12 @@ public class BrokenImapgePage extends BasePage {
         logger.info("Image naturalWidth: {}", width);
         // Convert to integer
         int widthValue = Integer.parseInt(width);
-        if (widthValue >= 0) {
+        // If width is greater than 0, image is not broken
+        if (widthValue > 0) {
+            logger.info("Image is not broken");
             return true;
         } else {
+            logger.error("Image is broken");
             return false;
         }
 
@@ -43,9 +46,12 @@ public class BrokenImapgePage extends BasePage {
         logger.info("Image naturalWidth: {}", width2);
         // Convert to integer
         int widthValue = Integer.parseInt(width2);
-        if (widthValue >= 0) {
+        // If width is greater than 0, image is not broken
+        if (widthValue > 0) {
+            logger.info("Image is not broken");
             return true;
         } else {
+            logger.error("Image is broken");
             return false;
         }
 
