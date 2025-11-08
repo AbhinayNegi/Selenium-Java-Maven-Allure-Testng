@@ -12,4 +12,10 @@
         </classes>
     </test>
 
+    <test name="Broken image test">
+        <classes>
+            <class name="tests.BrokenImageTest"/>
+        </classes>
+    </test>
+
 </suite>

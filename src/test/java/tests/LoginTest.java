@@ -1,6 +1,7 @@
 package tests;
 
 import io.qameta.allure.Description;
+import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
@@ -11,6 +12,9 @@ import java.io.IOException;
 
 public class LoginTest extends BaseTest {
     private static final Logger logger = LoggerFactory.getLogger(LoginTest.class);
+
+    public LoginTest() {
+    }
 
     @Test
     @Description("Verify user can login")
