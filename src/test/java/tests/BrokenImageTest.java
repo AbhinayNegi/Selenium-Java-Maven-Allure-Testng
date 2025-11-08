@@ -36,7 +36,6 @@ public class BrokenImageTest extends BaseTest {
                 logger.error("Image 2 is broken: {}", e.getMessage());
             }
             logger.info("Verification completed for both images");
-
         } catch (Exception e) {
             logger.error("Test failed due to unexpected error -> {}", e.getMessage());
             throw e;
