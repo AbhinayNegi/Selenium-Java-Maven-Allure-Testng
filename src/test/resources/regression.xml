@@ -18,4 +18,11 @@
         </classes>
     </test>
 
+    <test name="Context menu test">
+        <classes>
+            <class name="tests.ContextMenuTest"/>
+        </classes>
+    </test>
+
+
 </suite>
