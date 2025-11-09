@@ -20,6 +20,7 @@ public class BaseTest {
     DashboardPage dashboardPage;
     HomePage homePage;
     BrokenImapgePage brokenImapgePage;
+    ContextMenuPage contextMenuPage;
 
     protected Logger logger;
     public String logFilePath;
@@ -67,6 +68,7 @@ public class BaseTest {
         dashboardPage = new DashboardPage(driver);
         homePage= new HomePage(driver);
         brokenImapgePage = new BrokenImapgePage(driver);
+        contextMenuPage= new ContextMenuPage(driver);
     }
 
 }
