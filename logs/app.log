@@ -192,3 +192,50 @@ Session ID: 172fa541c5622e747a2d0dda43e720f5
 [2025-11-06 14:59:47] INFO  pages.HomePage - Getting homepage heading text
 [2025-11-06 14:59:47] INFO  tests.AuthTest - The user is handeling the auth
 [2025-11-06 14:59:48] INFO  tests.AuthTest - Test passed
+[2025-11-10 14:04:14] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-10 14:04:14] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-10 14:04:21] INFO  tests.AuthTest - The user is on homepage
+[2025-11-10 14:04:21] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-10 14:04:21] INFO  tests.AuthTest - The user is handeling the auth
+[2025-11-10 14:04:31] ERROR tests.AuthTest - Test failed -> unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=142.0.7444.60)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [973512a198c956bc8c41acc697f4edc7, get {url=https://admin:admin@https://the-internet.herokuapp.com/digest_auth}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61445}, goog:processID: 15904, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61445/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 973512a198c956bc8c41acc697f4edc7
+[2025-11-10 14:05:03] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-10 14:05:03] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-10 14:05:27] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-10 14:05:28] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-10 14:05:34] INFO  tests.AuthTest - The user is on homepage
+[2025-11-10 14:05:34] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-10 14:05:44] ERROR tests.AuthTest - Test failed -> unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=142.0.7444.60)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6addcfc89455eb7899554d8b51b52616, get {url=https://admin:admin@https://the-internet.herokuapp.com/digest_auth}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65050}, goog:processID: 28148, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65050/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6addcfc89455eb7899554d8b51b52616
+[2025-11-10 14:07:27] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-10 14:07:28] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-10 14:07:34] INFO  tests.AuthTest - The user is on homepage
+[2025-11-10 14:07:34] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-10 14:07:35] INFO  tests.AuthTest - Test passed
+[2025-11-10 14:13:25] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[2025-11-10 14:13:26] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[2025-11-10 14:13:31] INFO  tests.AuthTest - The user is on homepage
+[2025-11-10 14:13:31] INFO  pages.HomePage - Getting homepage heading text
+[2025-11-10 14:13:31] INFO  tests.AuthTest - Test passed

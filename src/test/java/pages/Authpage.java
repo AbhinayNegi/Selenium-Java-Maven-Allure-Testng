@@ -13,6 +13,7 @@ public class Authpage extends BasePage {
     private static final Logger logger = LoggerFactory.getLogger(LoginPage.class);
 
     private final By AUTH_TEXT = By.xpath("//h3[text()='Basic Auth']");
+    private final By DIGEST_AUTH_TEXT= By.xpath("//h3[text()='Digest Auth']");
 
 
     public Authpage(WebDriver driver) {
@@ -24,19 +25,18 @@ public class Authpage extends BasePage {
         driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
      }
 
-     // This could be used for the  prompts/alerts if they were inside the DOM
-//    @Step("Verify user can enter username and passowrd in the alert")
-//    public void handleAuthAlert(){
-//    Alert myalert= driver.switchTo().alert();
-//    myalert.sendKeys("admin");
-//    myalert.sendKeys("admin");
-//    myalert.accept();
-//    }
-//
     @Step("Verify basic auth text is visible")
     public String getBasicAuthTextVisible() {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(AUTH_TEXT)).getText();
     }
 
+    @Step("Verify user can enter username and passowrd in the digest auth alert")
+    public void handledigestAuthAlert(){
+        driver.get("https://admin:admin@the-internet.herokuapp.com/digest_auth");
+    }
 
+    @Step("Verify digest auth text is visible")
+    public String getdigestAuthTextVisible() {
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(DIGEST_AUTH_TEXT)).getText();
+    }
 }

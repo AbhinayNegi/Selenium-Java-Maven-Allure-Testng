@@ -18,4 +18,10 @@
         </classes>
     </test>
 
+    <test name="auth test">
+        <classes>
+            <class name="tests.AuthTest"/>
+        </classes>
+    </test>
+
 </suite>

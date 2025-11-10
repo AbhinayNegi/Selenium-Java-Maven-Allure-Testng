@@ -22,6 +22,10 @@ public class AuthTest extends BaseTest{
             authPage.handleAuthAlert();
             String AuthHeading = authPage.getBasicAuthTextVisible();
             Assert.assertEquals(AuthHeading, "Basic Auth");
+            logger.info("The user is handeling the digest auth");
+            authPage.handledigestAuthAlert();
+            String DigestAuthHeading = authPage.getdigestAuthTextVisible();
+            Assert.assertEquals(DigestAuthHeading, "Digest Auth");
             logger.info("Test passed");
         } catch (Exception e) {
             logger.error("Test failed -> {}", e.getMessage());
