@@ -14,6 +14,7 @@ public class HomePage extends BasePage{
     private final By BTN_ADD_REMOVE = By.xpath("//a[text()='Add/Remove Elements']");
     private final By LOGIN_HEADING = By.xpath("//h1");
     private final By AUTH_BTN= By.xpath("//a[@href='/basic_auth']");
+    private final By DRAG_DROP_BTN= By.xpath("//a[@href='/drag_and_drop']");
 
 
     public HomePage(WebDriver driver) {
@@ -36,4 +37,12 @@ public class HomePage extends BasePage{
     public void clickBasicAuthButton() {
         logger.info("Clicking basic auth button");
         clickElement(AUTH_BTN);
-    }}
+    }
+
+    @Step("Clicking the drag and drop text")
+    public void clickDragAndDropText(){
+        logger.info("clicking drag and drop text");
+        clickElement(DRAG_DROP_BTN);
+    }
+
+}
